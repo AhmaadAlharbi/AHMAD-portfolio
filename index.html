@@ -83,7 +83,7 @@
     <!-- about section -->
     <section id="about" class="mt-20 flex flex-col justify-center items-center">
       <div
-        class="flex flex-col justify-between items-center px-5 py-10 md:flex-row"
+        class="flex flex-col justify-between items-center px-5 py-10 md:flex-row "
       >
         <!-- img container -->
         <div class="">
@@ -92,12 +92,12 @@
         <!-- text-container -->
         <div class="max-w-6xl flex flex-col justify-center items-center">
           <h1
-            class="text-9xl tracking-[.40em] text-grayish opacity-40 font-Montserrat"
+            class="text-6xl md:text-9xl tracking-[.40em] text-grayish opacity-40 font-Montserrat"
           >
             About
           </h1>
-          <h2 class="text-amber font-Pacifico text-7xl">Who I am</h2>
-          <p class="mb-10 text-blueish text-2xl leading-loose text-center">
+          <h2 class="text-amber font-Pacifico text-5xl md:text-7xl">Who I am</h2>
+          <p class="my-10 text-blueish text-md  md:text-2xl leading-loose text-center">
             My name is Ahmad Alharbi , A Computer Engineer in Ministry of
             Electricity and water in Kuwait and work as a freelancer. I have
             been coding since 2018 and I have done a lot of projects with great
@@ -114,6 +114,97 @@
         </div>
       </div>
     </section>
+    <!-- Skills section -->
+    <section id="skills">
+      <div class="flex flex-col justify-center items-center ">
+        <h1
+        class="text-6xl md:text-9xl tracking-[.40em] text-grayish opacity-40 font-Montserrat"
+      >
+        Skills
+      </h1>
+      <h2 class="text-amber font-Pacifico text-5xl md:text-7xl">What I can do</h2>
+      <div>
+        <p class=" text-blueish text-md text-center md:text-4xl font-Poppins mt-10">I develop responsive websites & web applications by using modern web technologies</p>
+      </div>
+      <div class="mt-10">
+        <img src="images/skills-package1.svg" alt="" class="w-96">
+      </div>
+     
+    
+     </div>
+      </div>
+    </section>
+    <!-- projects section -->
+    <section id="projects">
+      <div class="flex flex-col justify-center items-center mt-20">
+        <h1
+        class="text-6xl md:text-9xl tracking-[.40em] text-grayish opacity-40 font-Montserrat"
+      >
+        Projects
+      </h1>
+      <h2 class="text-amber font-Pacifico text-5xl md:text-7xl">What I have done</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10 ">
+        <div>
+          <img src="images/blacnk-project.png" alt="">
+        </div>
+        <div>
+          <img src="images/blacnk-project.png" alt="">
+        </div>
+        <div>
+          <img src="images/blacnk-project.png" alt="">
+        </div>
+        <div>
+          <img src="images/blacnk-project.png" alt="">
+        </div>
+        <div>
+          <img src="images/blacnk-project.png" alt="">
+        </div>
+        <div>
+          <img src="images/blacnk-project.png" alt="">
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="flex flex-col justify-center items-center  mt-20">
+      <div>
+        <h1
+        class="text-6xl md:text-9xl tracking-[.40em] text-grayish opacity-40 font-Montserrat"
+      >
+        Contact
+      </h1>
+      <h2 class="text-amber font-Pacifico text-5xl md:text-7xl">Hire me</h2>
+      <form class="my-4">
+        <input class="block shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-2 border-blueish" placeholder="Your name" type="text">
+        <input class="block  shadow appearance-none  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-2 border-blueish my-10" placeholder="Your Email" type="email">
+        <textarea class="block w-full h-[150px] py-[12px] px-[20px] border-2 border-blueish" placeholder="Your Message"></textarea>
+        <button type="submit" class="bg-amber font-bold text-2xl text-white p-4 my-10 mr-10 font-Poppins">Send</button>
+      </form>
+      </div>
+      </div>
+    </section>
+    <footer class=" bg-blueish flex flex-col md:flex-row space-y-3 md:space-y-0 justify-between items-center py-10 px-20">
+      <h1 class="font-Pacifico text-white font-bold text-4xl tracking-[.20em]">
+        AHMAD
+      </h1>
+      <div
+        class="nav-links flex flex-col md:flex-row md:space-x-10 items-center text-white font-Poppins font-bold"
+      >
+        <div class="group">
+          <a href="/">Home</a>
+        </div>
+        <div class="group">
+          <a href="/">About</a>
+        </div>
+        <div class="group">
+          <a href="/">Projects</a>
+        </div>
+        <div class="group mt-5">
+          <a href="/" class="bg-amber py-2 px-4 rounded-md">Contact me</a>
+        </div>
+      </div>
+
+    </footer>
     <script>
       function myFunction(x) {
         x.classList.toggle("change");
