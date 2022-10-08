@@ -148,7 +148,7 @@
           <div>
             <a
               href="#projects"
-              class="bg-amber font-bold text-2xl text-white p-4 my-10 mr-10 font-Poppins transition-colors duration-200 hover:bg-gray-200 hover:text-blueish"
+              class="bg-amber font-bold text-2xl text-white p-4 my-10 font-Poppins transition-colors duration-200 hover:bg-gray-200 hover:text-blueish"
               >My Projects</a
             >
           </div>
@@ -237,24 +237,30 @@
         <div class="">
           <h1
             class="text-5xl md:text-9xl tracking-[.40em] text-grayish opacity-40 font-Montserrat"
-          >
-            Contact
-          </h1>
+          ></h1>
           <h2 class="text-amber font-Pacifico text-5xl md:text-7xl">Hire me</h2>
-          <form action="mailto:ahmaadzaid7@gmail.com" method=”POST” enctype=”text/plain” class="my-4">
+          <form
+            action="https://formsubmit.co/ahmaadzaid7@gmail.com"
+            method="post"
+            class="my-4"
+          >
             <input
               class="block rounded-3xl shadow appearance-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-2 border-blueish"
               placeholder="Your name"
               type="text"
             />
+            <input type="hidden" name="_captcha" value="false" />
+
             <input
               class="block shadow appearance-none rounded-3xl w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-2 border-blueish my-10"
               placeholder="Your Email"
               type="email"
+              name="email"
             />
             <textarea
               class="block rounded-3xl w-full h-[150px] py-[12px] px-[20px] border-2 border-blueish"
               placeholder="Your Message"
+              name="message"
             ></textarea>
             <button
               type="submit"
