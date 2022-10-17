@@ -25,3 +25,12 @@ body {
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
+
+#projects img {
+  filter: grayscale(80%);
+}
+#projects img:hover {
+  transition: all;
+  transition-duration: 0.1s;
+  filter: none;
+}
