@@ -518,6 +518,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.col-start-2 {
+  grid-column-start: 2;
+}
+
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -961,9 +965,9 @@ body {
   filter: none;
 }
 
-#last {
+/* #last {
   grid-column-start: 2;
-}
+} */
 
 .hover\:border-blueish:hover {
   --tw-border-opacity: 1;
@@ -986,6 +990,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:col-start-2 {
+    grid-column-start: 2;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
